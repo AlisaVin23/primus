@@ -1,0 +1,18 @@
+programm zum berechnen von primzahlen
+
+1. schritt
+Benutzer kann eine beliebige zahl eingeben und per click auf einen button, wird dem benutzer mitgeteilt, ob es sich dabei um eine primzahl handelt
+
+
+2. benutzer hat zwei eingabefelder um einen Bereich festzulegen
+das programm durchsucht nach click auf einen button den kompletten bereich und gibt alle darin gefundenen primzahlen aus
+
+3. nach click auf die buttons sollen diese deaktviert sein, bis die berechnung fertig ist
+
+4. "progress bar" - irgendwo soll eine fortschrittanzeige sein mit dementsprechender funktion
+
+5. solange das programm rechnet, soll sich der cursor zu einer sanduhr oder ähnlich ändern
+
+6. benutzer kann per click auf einen button die ausgabe in einem lokalen file speichern
+
+7. berechnung optimieren -> algorithmus falls möglich anpassen

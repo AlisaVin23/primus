@@ -1,0 +1,144 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    background-color: #181830;
+    color: #e0e1e2;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+div {
+    margin: 0 20px 20px 20px;
+    display: block;
+    align-self: center;
+}
+
+button {
+    padding: 4px 15px 4px 15px;
+    margin-left: 10px;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    color: #e0e1e2;
+    background-color: #114858;
+    border-radius: 10px;
+    border-style: none;
+}
+button:hover {
+    color: #181830;
+    background-color: #ecbd22;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: no-drop;
+}
+
+#btn_clear {
+    margin-left: 0;
+}
+
+.primusContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border: 2px solid #2dbce7;
+    border-radius: 5px;
+}
+
+#primus_head {
+    width: 100%;
+    height: 20px;
+    background-color: #2dbce7;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#primus_result {
+    margin-top: 20px;
+}
+
+input {
+    background-color: #e0e1e2;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding-inline-start: 10px;
+}
+
+#num_input {
+    width: 207px;
+    height: 25px;
+}
+
+#num_input_area_from {
+    width: 100px;
+    height: 25px;
+}
+
+#num_input_area_to {
+    width: 100px;
+    margin-left: 0;
+    height: 25px;
+}
+
+#num_output {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 550px;
+    margin: 20px 20px 20px 0; 
+    padding: 5px;
+    background-color: #e0e1e2;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    padding-inline-start: 10px;
+}
+
+#num_output_item {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#save {
+    margin-left: 0;
+}
+
+.progress #progress__bar {
+    margin: 20px 20px 20px 0;
+    padding: 2px;
+    max-width: 545px;
+    border: 3px solid  #2dbce7;
+    border-radius: 12px;
+    background-color: #ecbd22;
+    height: 30px;
+}
+  
+#progress__bar {
+    width: 1%;
+    margin-left: 0;
+    border-radius: 8px;
+    color:#030303;
+    font-family: Tahoma;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}

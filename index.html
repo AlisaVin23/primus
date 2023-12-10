@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Primus</title>
+</head>
+<body>
+    <h2>Primus</h2>
+    <h4>Programm zum Berechnen von Primzahlen</h4>
+    <div class="primusContainer">
+        <div id="primus_head"></div>
+        <div id="num_input_field">
+            <label for="num_input">Gib die Zahl ein</label>
+            <input type="text" name="num_input" id="num_input">
+            <button type="button" onclick= "testPrimzahl()">Prüfen</button>
+            <button type="button" id="btn_clear" onclick="deleteItem()">Löschen</button>
+            <div id="primus_result"> 
+                <p> </p>
+            </div>
+        </div>
+        <div class="num_input_area">
+            <label class="num_input_area" for="num_input_area_from">Prüfen im Bereich von</label>
+            <input type="text" id="num_input_area_from"> bis 
+            <input type="text" id="num_input_area_to">
+            <button type="button" id="btn_search" onclick="primesOutput()">Suchen</button>
+        </div>
+        <div>
+            <p for="num_output">Ergebnisse</p>
+            <div id="num_output"></div>
+            <button type="button" id="save" onclick="saveTextContentAsFile()">Speichern</button>
+            <button type="button" id="clear_output" onclick="deleteOutput()">Ergebnis löschen</button>
+        </div>
+        <div class="progress"> 
+            <div id="progress__bar" value="0" max="100"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
